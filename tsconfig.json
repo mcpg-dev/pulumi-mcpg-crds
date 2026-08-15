@@ -1,0 +1,55 @@
+{
+    "compilerOptions": {
+        // Output
+        "outDir": "bin",
+        "declaration": true,
+        "declarationMap": true,
+        "sourceMap": true,
+        "stripInternal": true,
+        // Environment
+        "target": "ES2022",
+        "module": "nodenext",
+        "moduleResolution": "nodenext",
+        "moduleDetection": "force",
+        "types": ["node"],
+        // Type Checking
+        "strict": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitReturns": true,
+        "skipLibCheck": true
+    },
+    "files": [
+        "index.ts",
+        "mcpg/index.ts",
+        "mcpg/v1alpha1/index.ts",
+        "mcpg/v1alpha1/mcpgcluster.ts",
+        "mcpg/v1alpha1/mcpgclusterList.ts",
+        "mcpg/v1alpha1/mcpgclusterPatch.ts",
+        "mcpg/v1alpha1/mcpggateway.ts",
+        "mcpg/v1alpha1/mcpggatewayList.ts",
+        "mcpg/v1alpha1/mcpggatewayPatch.ts",
+        "mcpg/v1alpha1/mcpgplugin.ts",
+        "mcpg/v1alpha1/mcpgpluginList.ts",
+        "mcpg/v1alpha1/mcpgpluginMirror.ts",
+        "mcpg/v1alpha1/mcpgpluginMirrorList.ts",
+        "mcpg/v1alpha1/mcpgpluginMirrorPatch.ts",
+        "mcpg/v1alpha1/mcpgpluginPatch.ts",
+        "mcpg/v1alpha1/mcpgpluginSet.ts",
+        "mcpg/v1alpha1/mcpgpluginSetList.ts",
+        "mcpg/v1alpha1/mcpgpluginSetPatch.ts",
+        "mcpg/v1alpha1/mcpgrevocationList.ts",
+        "mcpg/v1alpha1/mcpgrevocationListList.ts",
+        "mcpg/v1alpha1/mcpgrevocationListPatch.ts",
+        "mcpg/v1alpha1/mcpgroute.ts",
+        "mcpg/v1alpha1/mcpgrouteList.ts",
+        "mcpg/v1alpha1/mcpgroutePatch.ts",
+        "mcpg/v1alpha1/mcpgtenant.ts",
+        "mcpg/v1alpha1/mcpgtenantList.ts",
+        "mcpg/v1alpha1/mcpgtenantPatch.ts",
+        "provider.ts",
+        "types/index.ts",
+        "types/input.ts",
+        "types/output.ts",
+        "utilities.ts"
+    ]
+}

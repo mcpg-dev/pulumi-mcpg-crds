@@ -1,0 +1,36 @@
+{
+  "name": "@mcpg-dev/pulumi-crds",
+  "version": "0.1.0-beta.13",
+  "keywords": [
+    "pulumi",
+    "kubernetes",
+    "category/cloud",
+    "kind/native"
+  ],
+  "homepage": "https://pulumi.com",
+  "repository": "https://github.com/mcpg-dev/pulumi-mcpg-crds",
+  "license": "Apache-2.0",
+  "main": "bin/index.js",
+  "scripts": {
+    "build": "tsc",
+    "postinstall": "node ./scripts/postinstall.js"
+  },
+  "dependencies": {
+    "@pulumi/kubernetes": "4.23.0",
+    "@pulumi/pulumi": "^3.142.0",
+    "@types/node": "^20",
+    "glob": "^12.0.0",
+    "shell-quote": "^1.6.1",
+    "typescript": "^4.7.0"
+  },
+  "devDependencies": {
+    "@types/shell-quote": "^1.6.0"
+  },
+  "pulumi": {
+    "resource": true,
+    "name": "mcpg",
+    "version": "0.0.0-dev"
+  },
+  "description": "Typed Pulumi resource classes for the mcpg.dev custom resources, generated from the MCPG CRD schemas.",
+  "types": "bin/index.d.ts"
+}
