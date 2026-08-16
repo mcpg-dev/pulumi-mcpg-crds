@@ -1,6 +1,6 @@
 {
   "name": "@mcpg-dev/pulumi-crds",
-  "version": "0.1.0-beta.13",
+  "version": "0.1.0-beta.14",
   "keywords": [
     "pulumi",
     "kubernetes",
