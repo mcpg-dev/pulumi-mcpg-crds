@@ -1,6 +1,6 @@
 {
   "name": "@mcpg-dev/pulumi-crds",
-  "version": "0.1.0-rc.2",
+  "version": "0.1.0-rc.4",
   "keywords": [
     "pulumi",
     "kubernetes",
@@ -16,8 +16,8 @@
     "postinstall": "node ./scripts/postinstall.js"
   },
   "dependencies": {
-    "@pulumi/kubernetes": "4.34.2",
-    "@pulumi/pulumi": "^3.272.0",
+    "@pulumi/kubernetes": "4.34.3",
+    "@pulumi/pulumi": "^3.273.0",
     "@types/node": "^20",
     "glob": "^14.0.2",
     "shell-quote": "^1.12.0",
